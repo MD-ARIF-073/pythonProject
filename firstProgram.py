@@ -125,7 +125,7 @@
 # print("Finished")
 
 
-grocery = ["rice", "potato", "tomato", "water"]
+# grocery = ["rice", "potato", "tomato", "water"]
 #
 # for item in grocery:
 #     if item == "potato":
@@ -139,5 +139,38 @@ grocery = ["rice", "potato", "tomato", "water"]
 #     print(i)
 #
 
-for i in range(0, len(grocery)):
-    print(grocery[i])                 # grocery list er index er value ta print hoitase
+# for i in range(0, len(grocery)):
+#     print(grocery[i])                 # grocery list er index er value ta print hoitase
+
+
+# File read, word gilo niye list ae save rakhi. then strip and split kore unique word gulo notun ekta file ae niye write krtasi. notun file create hoilo
+# with open("shakespeare.txt", mode = "r") as s_file:
+#     words_all = []
+#     for line in s_file.readlines():
+#         stripped_string = line.strip()
+#         words = stripped_string.split(" ")         # line.strip().split(" ")
+#         words_all += words                           # 1 ta list er moddhe file er word gulo rakha shikhe gelam
+#
+#     unique_words = set(words_all)
+#     print(len(words_all))
+#     print(len(unique_words))
+#
+#
+#     with open("unique_words.txt", mode="w") as write_file:
+#         for item in sorted(unique_words):
+#             write_file.write(item)
+#             write_file.write("\n")
+#
+# print("finished")
+
+
+
+username = input("Your name: ")
+
+# value = 1
+# string_value = str(value)
+# new_string = string_value + username
+# print(new_string)
+
+for i in range(10):
+    print(i)
