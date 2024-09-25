@@ -165,12 +165,25 @@
 
 
 
-username = input("Your name: ")
+# username = input("Your name: ")
 
 # value = 1
 # string_value = str(value)
 # new_string = string_value + username
 # print(new_string)
 
-for i in range(10):
-    print(i)
+# for i in range(10):
+#     print(i)
+
+import math
+
+user_num = int(input("Upper limit for prime: "))
+
+def is_prime(num):
+    for i in range(2, int(math.sqrt(num) + 1)):
+        if num % i == 0:
+            return False
+    return  True
+for i in range(1, user_num + 1):
+    if is_prime(i):
+        print(i)
